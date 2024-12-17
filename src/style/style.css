@@ -1,0 +1,46 @@
+.app {
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 0 4px black;
+  min-height: 500px;
+  background: linear-gradient(rgb(8, 15, 235), rgb(31, 31, 74));
+}
+
+.task-input-form {
+  width: 400px;
+  height: 50px;
+}
+
+.task-item {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.task-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.task-text {
+  width: 200px;
+  height: 25px;
+  border-radius: 3px;
+  background: #fff;
+  color: black;
+}
+
+.task-filter {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
